@@ -1,5 +1,5 @@
-import numpy as np
 import cv2
+import numpy as np
 import pytest
 
 from data_prep.filters import compute_blur_score, is_sharp_enough
