@@ -1,0 +1,47 @@
+# Core web/API
+fastapi
+uvicorn[standard]
+pydantic
+
+# Data layer
+sqlalchemy>=2.0
+alembic
+psycopg2-binary
+python-dotenv
+
+# ML / training stack
+diffusers>=0.29
+transformers>=4.42
+accelerate>=0.31
+peft>=0.11
+datasets
+
+# Classical CV / data preprocessing
+opencv-python
+scikit-image
+
+# Monitoring
+prometheus-fastapi-instrumentator
+
+# Cloud (S3 access)
+boto3
+
+# Dev tooling
+pytest
+ruff
+
+# --- Torch installation ---
+# Torch is intentionally excluded from this file's default install.
+# Install torch/torchvision/torchaudio separately with a build matching
+# the target machine, before installing the rest of this file.
+#
+# GPU machine (CUDA 12.1):
+#   pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+#
+# CPU-only local machine:
+#   pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1
+#
+# xformers is excluded. Installing it via pip's default resolver previously
+# downgraded torch to 2.4.0, breaking version alignment with torchvision/
+# torchaudio. Reintroduce it later using a wheel matched explicitly to the
+# training machine's torch build.

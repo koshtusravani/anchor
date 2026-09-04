@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: anchor-postgres
+    environment:
+      POSTGRES_USER: anchor
+      POSTGRES_PASSWORD: anchor_dev_pw
+      POSTGRES_DB: anchor
+    ports:
+      - "5432:5432"
+    volumes:
+      - anchor_pgdata:/var/lib/postgresql/data
+
+volumes:
+  anchor_pgdata:
