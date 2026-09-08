@@ -1,4 +1,6 @@
 .env
 .venv/
 __pycache__/
-*.pyc
+*.pyccheckpoints/lora_colorful_sneaker/checkpoint-*/
+checkpoints/lora_colorful_sneaker/logs/
+checkpoints/class_images/
