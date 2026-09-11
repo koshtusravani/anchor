@@ -1,0 +1,68 @@
+{
+  "knn_baseline": [
+    {
+      "prompt": "a photo of sneaker on a wooden table",
+      "retrieved_from": "/root/data/raw/dataset/colorful_sneaker/00.jpg",
+      "clip_i": 0.8381607413291932,
+      "clip_t": 0.3052752912044525
+    },
+    {
+      "prompt": "a photo of sneaker in the snow",
+      "retrieved_from": "/root/data/raw/dataset/colorful_sneaker/00.jpg",
+      "clip_i": 0.8381607413291932,
+      "clip_t": 0.2743374705314636
+    },
+    {
+      "prompt": "a photo of sneaker on top of a mountain",
+      "retrieved_from": "/root/data/raw/dataset/colorful_sneaker/00.jpg",
+      "clip_i": 0.8381607413291932,
+      "clip_t": 0.3057976961135864
+    },
+    {
+      "prompt": "a photo of sneaker floating on water",
+      "retrieved_from": "/root/data/raw/dataset/colorful_sneaker/00.jpg",
+      "clip_i": 0.8381607413291932,
+      "clip_t": 0.3316134214401245
+    },
+    {
+      "prompt": "a photo of sneaker next to a coffee cup",
+      "retrieved_from": "/root/data/raw/dataset/colorful_sneaker/00.jpg",
+      "clip_i": 0.8381607413291932,
+      "clip_t": 0.29821130633354187
+    },
+    {
+      "prompt": "a painting of sneaker in the style of Van Gogh",
+      "retrieved_from": "/root/data/raw/dataset/colorful_sneaker/04.jpg",
+      "clip_i": 0.8759382247924805,
+      "clip_t": 0.2873803675174713
+    },
+    {
+      "prompt": "a photo of sneaker on a red carpet",
+      "retrieved_from": "/root/data/raw/dataset/colorful_sneaker/04.jpg",
+      "clip_i": 0.8759382247924805,
+      "clip_t": 0.28603142499923706
+    },
+    {
+      "prompt": "a photo of sneaker in a forest",
+      "retrieved_from": "/root/anchor/checkpoints/class_images/sneaker/114-5aaf044f5fc3dae3d62da8101eac8b6ce7b71cce.jpg",
+      "clip_i": 0.7609986543655396,
+      "clip_t": 0.2927692234516144
+    },
+    {
+      "prompt": "a close-up photo of sneaker",
+      "retrieved_from": "/root/anchor/checkpoints/class_images/sneaker/10-248e530a0c964e3edabba22cd72d5a77539e4ca4.jpg",
+      "clip_i": 0.7119423747062683,
+      "clip_t": 0.29796260595321655
+    },
+    {
+      "prompt": "a photo of sneaker on the moon",
+      "retrieved_from": "/root/data/raw/dataset/colorful_sneaker/00.jpg",
+      "clip_i": 0.8381607413291932,
+      "clip_t": 0.29764920473098755
+    }
+  ],
+  "knn_baseline_summary": {
+    "avg_clip_i": 0.8253781926631929,
+    "avg_clip_t": 0.2977028012275696
+  }
+}
