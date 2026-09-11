@@ -44,4 +44,5 @@ ruff
 # xformers is excluded. Installing it via pip's default resolver previously
 # downgraded torch to 2.4.0, breaking version alignment with torchvision/
 # torchaudio. Reintroduce it later using a wheel matched explicitly to the
-# training machine's torch build.
+# training machine's torch build.open_clip_torch
+scikit-learn

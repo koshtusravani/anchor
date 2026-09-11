@@ -1,5 +1,5 @@
-from db.session import SessionLocal
 from db.models import Dataset
+from db.session import SessionLocal
 
 
 def register_dataset(subject_name: str, source_images_path: str, num_images: int) -> int:

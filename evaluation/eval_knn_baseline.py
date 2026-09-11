@@ -1,11 +1,16 @@
 import json
 import os
+
 import torch
-from PIL import Image
 from eval_suite import (
-    PROMPT_SUITE, INSTANCE_DATA_DIR, DEVICE,
-    load_clip_model, compute_clip_i, compute_clip_t,
+    DEVICE,
+    INSTANCE_DATA_DIR,
+    PROMPT_SUITE,
+    compute_clip_i,
+    compute_clip_t,
+    load_clip_model,
 )
+from PIL import Image
 
 RESULTS_PATH = "/root/anchor/evaluation/results_knn.json"
 

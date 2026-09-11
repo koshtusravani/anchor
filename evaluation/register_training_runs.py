@@ -1,6 +1,6 @@
 # evaluation/register_training_runs.py
+from db.models import Dataset, TrainingRun
 from db.session import SessionLocal
-from db.models import TrainingRun, Dataset
 
 session = SessionLocal()
 dataset = session.query(Dataset).filter_by(subject_name="colorful_sneaker").first()

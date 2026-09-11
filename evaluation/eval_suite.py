@@ -1,11 +1,10 @@
-import os
 import json
-import torch
-import open_clip
-from PIL import Image
-from diffusers import StableDiffusionXLPipeline
-from peft import PeftModel
+import os
 
+import open_clip
+import torch
+from diffusers import StableDiffusionXLPipeline
+from PIL import Image
 
 # Fixed prompt suite spanning pose, setting, and style variation, used
 # identically across all three comparison arms.

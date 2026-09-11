@@ -1,7 +1,7 @@
 import json
 
-from db.session import SessionLocal
 from db.models import EvalResult
+from db.session import SessionLocal
 
 
 def log_eval_results(training_run_id: int, results_path: str, key: str, model_variant: str) -> None:

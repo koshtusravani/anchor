@@ -1,11 +1,18 @@
 import json
+import os
+
 import torch
 from diffusers import StableDiffusionXLPipeline
 from eval_suite import (
-    PROMPT_SUITE, INSTANCE_DATA_DIR, OUTPUT_DIR, DEVICE,
-    load_clip_model, compute_clip_i, compute_clip_t, generate_images
+    DEVICE,
+    INSTANCE_DATA_DIR,
+    OUTPUT_DIR,
+    PROMPT_SUITE,
+    compute_clip_i,
+    compute_clip_t,
+    generate_images,
+    load_clip_model,
 )
-import os
 
 LORA_RANK32_PATH = "/root/anchor/checkpoints/lora_colorful_sneaker_rank32/pytorch_lora_weights.safetensors"
 
