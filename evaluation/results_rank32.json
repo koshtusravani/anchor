@@ -1,0 +1,58 @@
+{
+  "rank32": [
+    {
+      "prompt": "a photo of sks sneaker on a wooden table",
+      "clip_i": 0.7451530218124389,
+      "clip_t": 0.2925266623497009
+    },
+    {
+      "prompt": "a photo of sks sneaker in the snow",
+      "clip_i": 0.698380708694458,
+      "clip_t": 0.29531925916671753
+    },
+    {
+      "prompt": "a photo of sks sneaker on top of a mountain",
+      "clip_i": 0.7089029669761657,
+      "clip_t": 0.31054025888442993
+    },
+    {
+      "prompt": "a photo of sks sneaker floating on water",
+      "clip_i": 0.6671692609786988,
+      "clip_t": 0.3065001666545868
+    },
+    {
+      "prompt": "a photo of sks sneaker next to a coffee cup",
+      "clip_i": 0.6702582001686096,
+      "clip_t": 0.3024795651435852
+    },
+    {
+      "prompt": "a painting of sks sneaker in the style of Van Gogh",
+      "clip_i": 0.7742716789245605,
+      "clip_t": 0.33973467350006104
+    },
+    {
+      "prompt": "a photo of sks sneaker on a red carpet",
+      "clip_i": 0.7738443613052368,
+      "clip_t": 0.304248183965683
+    },
+    {
+      "prompt": "a photo of sks sneaker in a forest",
+      "clip_i": 0.803954815864563,
+      "clip_t": 0.31014642119407654
+    },
+    {
+      "prompt": "a close-up photo of sks sneaker",
+      "clip_i": 0.7051558017730712,
+      "clip_t": 0.2628103196620941
+    },
+    {
+      "prompt": "a photo of sks sneaker on the moon",
+      "clip_i": 0.6787500977516174,
+      "clip_t": 0.3774489462375641
+    }
+  ],
+  "rank32_summary": {
+    "avg_clip_i": 0.722584091424942,
+    "avg_clip_t": 0.3101754456758499
+  }
+}
