@@ -10,10 +10,10 @@ psycopg2-binary
 python-dotenv
 
 # ML / training stack
-diffusers>=0.29
-transformers>=4.42
-accelerate>=0.31
-peft>=0.11
+transformers>=4.46
+peft>=0.13
+diffusers>=0.31
+accelerate>=0.34
 datasets
 
 # Classical CV / data preprocessing

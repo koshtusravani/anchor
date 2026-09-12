@@ -1,0 +1,19 @@
+FROM pytorch/pytorch:2.5.1-cuda12.1-cudnn9-runtime
+
+WORKDIR /app
+
+# System dependencies required by diffusers/opencv-based preprocessing
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
+    libgl1 \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# LoRA weights are tracked via Git LFS; ensure they are pulled before build
+COPY . .
+
+EXPOSE 8000
+
+CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
